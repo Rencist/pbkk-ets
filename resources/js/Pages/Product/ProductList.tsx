@@ -1,6 +1,8 @@
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
-import { Head, usePage } from "@inertiajs/react";
+import { Head, Link, useForm, usePage } from "@inertiajs/react";
 import { PageProps } from "@/types";
+import DangerButton from "@/Components/DangerButton";
+import { FormEventHandler } from "react";
 
 export default function Dashboard({ auth }: PageProps) {
     const flash = usePage().props.flash;
@@ -8,7 +10,16 @@ export default function Dashboard({ auth }: PageProps) {
     const props = usePage().props;
     const products = props.product;
 
-    console.log(products);
+    const { delete: destroy, processing } = useForm({});
+
+    const deleteProduct: FormEventHandler = (e) => {
+        e.preventDefault();
+
+        destroy(route("product.destroy"), {
+            preserveScroll: true,
+        });
+    };
+
     return (
         <AuthenticatedLayout
             user={auth.user}
@@ -35,15 +46,21 @@ export default function Dashboard({ auth }: PageProps) {
                         <div className="p-6 text-gray-900">Product List</div>
                     </div>
                 </div>
-                {products.map((product) => (
-                    <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                        <div className="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                            <div className="p-6 text-gray-900">
-                                {product.description}
-                            </div>
+                <div className="m-16">
+                    {products.map((product) => (
+                        <div className="pt-8 text-gray-900">
+                            <div>Deskripsi Produk : {product.description}</div>
+                            <div>Kelemahan Produk : {product.description}</div>
+                            <div>Jumlah Produk : {product.description}</div>
+                            <Link
+                                href={route("product.destroy", product.id)}
+                                className="text-sm text-gray-700 underline"
+                            >
+                                Delete Product
+                            </Link>
                         </div>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
         </AuthenticatedLayout>
     );
