@@ -16,7 +16,13 @@ class Product extends Model
      * @var array<int, string>
      */
     protected $fillable = [
-        'condition',
+        'user_id',
+        'product_type_id',
+        'product_condition_id',
+        'description',
+        'defect',
+        'amount',
+        'picture_url',
     ];
 
     public function user(): BelongsTo
