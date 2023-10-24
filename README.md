@@ -1,66 +1,39 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# ETS PBKK
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+-   Pengguna harus login sebelum ke dashboard
+    ![image](https://github.com/Rencist/A07_Sisop_Individu_Modul_3/assets/91055469/d8920198-0c22-43de-8b9f-5a8787346a0c)
 
-## About Laravel
+-   Register jika belum mempunyai akun
+    ![image](https://github.com/Rencist/A07_Sisop_Individu_Modul_3/assets/91055469/6ad74f0b-2cc7-4b6f-a67c-baed65c5ad45)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+-   Halaman dashboard user ketika login
+    ![image](https://github.com/Rencist/A07_Sisop_Individu_Modul_3/assets/91055469/3a5409ca-b08f-4f0a-9b41-1af7c7dfa6d4)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+-   Form Input Produk
+    ![image](https://github.com/Rencist/A07_Sisop_Individu_Modul_3/assets/91055469/826a14f3-008c-4a03-913c-f6dcdf6b1b5b)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+-   Dropdown Tipe Produk dari seeder database
+    ![image](https://github.com/Rencist/A07_Sisop_Individu_Modul_3/assets/91055469/e813d477-ebd2-49ce-9a37-a891894315f0)
 
-## Learning Laravel
+    ![image](https://github.com/Rencist/A07_Sisop_Individu_Modul_3/assets/91055469/5863584b-e70d-4f6f-a43e-1a9c6d3b526e)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+-   Dropdown Kondisi Produk
+    ![image](https://github.com/Rencist/A07_Sisop_Individu_Modul_3/assets/91055469/eed75838-c10a-4164-89ed-e685f9620f9f)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+    ![image](https://github.com/Rencist/A07_Sisop_Individu_Modul_3/assets/91055469/1194580e-afac-41fa-91c9-4c9a3aea0303)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+-   Halaman List Semua Produk
+    ![image](https://github.com/Rencist/A07_Sisop_Individu_Modul_3/assets/91055469/c4e32ffc-46b6-4295-ad66-4899fca1fc9e)
 
-## Laravel Sponsors
+-   Berhasil Submit Produk
+    ![image](https://github.com/Rencist/A07_Sisop_Individu_Modul_3/assets/91055469/7be3407e-8193-4963-8862-e9890abef9c6)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+    ![image](https://github.com/Rencist/A07_Sisop_Individu_Modul_3/assets/91055469/986c0922-f9f2-470d-a307-d6ea1200b14c)
 
-### Premium Partners
+-   Berhasil Delete Produk
+    ![image](https://github.com/Rencist/A07_Sisop_Individu_Modul_3/assets/91055469/9e95ea83-5ebe-41cd-8909-00ec8e27d176)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+    ![image](https://github.com/Rencist/A07_Sisop_Individu_Modul_3/assets/91055469/b56cd5a1-dfbe-48e7-92e0-770289bc630c)
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+-   Seeder Produk
+    ![image](https://github.com/Rencist/A07_Sisop_Individu_Modul_3/assets/91055469/a88e46b7-e668-48d9-a602-7d1480657a98)
