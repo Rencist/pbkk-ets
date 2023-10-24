@@ -14,13 +14,58 @@ class ProductTypeSeeder extends Seeder
     {
         $types = [
             [
-                'type' => 'good'
+                'type' => 'Elektronik'
             ], 
             [
-                'type' => 'decent'
+                'type' => 'Furnitur'
             ],
             [
-                'type' => 'broken'
+                'type' => 'Transportasi'
+            ],
+            [
+                'type' => 'Kendaraan'
+            ],
+            [
+                'type' => 'Pakaian'
+            ],
+            [
+                'type' => 'Alat Olahraga'
+            ],
+            [
+                'type' => 'Alat Musik'
+            ],
+            [
+                'type' => 'Alat Elektronik'
+            ],
+            [
+                'type' => 'Alat Tulis'
+            ],
+            [
+                'type' => 'Alat Masak'
+            ],
+            [
+                'type' => 'Alat Rumah Tangga'
+            ],
+            [
+                'type' => 'Alat Kesehatan'
+            ],
+            [
+                'type' => 'Alat Kebersihan'
+            ],
+            [
+                'type' => 'Alat Hewan Peliharaan'
+            ],
+            [
+                'type' => 'Alat Pertukangan'
+            ],
+            [
+                'type' => 'Alat Pertanian'
+            ],
+            [
+                'type' => 'Alat Perikanan'
+            ],
+            [
+                'type' => 'Alat Perkebunan'
             ]
         ];
 

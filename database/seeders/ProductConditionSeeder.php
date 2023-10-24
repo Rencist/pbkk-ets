@@ -14,13 +14,13 @@ class ProductConditionSeeder extends Seeder
     {
         $types = [
             [
-                'condition' => 'tes1'
+                'condition' => 'good'
             ], 
             [
-                'condition' => 'tes2'
+                'condition' => 'decent'
             ],
             [
-                'condition' => 'tes3'
+                'condition' => 'broken'
             ]
         ];
 

@@ -2,8 +2,12 @@
 
 namespace Database\Factories;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
+use App\Models\ProductType;
 use Illuminate\Support\Str;
+use App\Models\ProductCondition;
+use App\Models\User;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Product>
@@ -17,14 +21,18 @@ class ProductFactory extends Factory
      */
     public function definition(): array
     {
+        $user = User::all();
+        $type = ProductType::all();
+        $condition = ProductCondition::all();
+
         return [
-            'user_id' => fake()->name(),
-            'product_type_id' => fake()->unique()->safeEmail(),
-            'product_condition_id' => fake()->unique()->userName(),
-            'description' => now(),
-            'defect' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
-            'amount' => Str::random(10),
-            'picture_url' => Str::random(10),
+            'user_id' => 1,
+            'product_type_id' => $type->random()->id,
+            'product_condition_id' => $condition->random()->id,
+            'description' => $this->faker->sentence(10),
+            'defect' => $this->faker->sentence(5), // password
+            'amount' =>  $this->faker->randomDigit(),
+            'picture_url' => $this->faker->imageUrl(640, 480, 'animals', true), 
         ];
     }
 
